@@ -1,0 +1,78 @@
+/* the 5 colors for the palette are:
+raspberry #771434
+sunflower #f2b705
+tangerine #f29f05
+flour #ffe6de
+orchid lilac #b27ca1 */
+
+body {
+  background-color: #FFE6DE;
+  margin: 2rem;
+}
+h1 {
+  color: #771434;
+  background-color: #F2B705;
+  padding: 1rem;
+  border-style: none;
+  border-radius: 7px;
+
+}
+h2 {
+  color: #FFE6DE;
+  background-color: #b27ca1;
+  width: 75%;
+  padding-left: 1rem;
+  border-style: none;
+  border-radius: 7px;
+  margin-top: 0rem;
+}
+
+nav {
+  border-style: solid;
+  border-color: #b27ca1;
+  border-radius: 7px;
+  padding-left: 1rem;
+  padding-bottom: .5rem;
+}
+
+.seemless {
+  margin-top: 0rem;
+}
+
+p {
+  color: #771434;
+}
+a:hover {
+  color: #771434;
+  background-color: #f29f05;
+}
+img {
+  border-style: groove;
+  border-color: #771434;
+  border-width: 3px;
+  width: 25%;
+}
+article {
+  border-style: solid;
+  border-color: #f29f05;
+  border-width: 5px;
+  width: 50%;
+  padding: 1rem;
+  border-radius: 7px;
+
+}
+aside {
+  float: right;
+  width: 40%;
+  padding: 1rem;
+  border-style: dotted;
+  border-color: #771434;
+  border-width: 3px;
+  border-radius: 7px;
+}
+.thumbnail {
+  width: 10%;
+}
+.aside {
+  width: 100%;
+}
