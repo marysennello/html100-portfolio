@@ -1,28 +1,32 @@
-/* the 5 colors for the palette are:
-raspberry #771434
-sunflower #f2b705
-tangerine #f29f05
-flour #ffe6de
-orchid lilac #b27ca1 */
+/* CSS HEX
+--slate-gray: #717c89;
+--dark-byzantium: #4d2d45;
+--cultured: #f1f7f8;
+--middle-green-yellow: #a5b452;
+--misty-moss: #a6a15e;
+*/
 
 body {
-  background-color: #FFE6DE;
-  margin: 2rem;
+  background-color: #f1f7f8;
+  padding: 1rem;
 }
+
 h1, h2, h3, h4 {
   font-family: Raleway, Helvetica; sans-serif;
 }
 h1 {
-  color: #771434;
-  background-color: #F2B705;
-  padding: 1rem;
-  border-style: none;
+  color: #f1f7f8;
+  font-size: 2rem;
+  padding: 3rem;
+}
+header {
+  background-color: #4d2d45;
+  padding: 0rem;
   border-radius: 7px;
-
 }
 h2 {
-  color: #FFE6DE;
-  background-color: #b27ca1;
+  color: #f1f7f8;
+  background-color: #A6A15E;
   width: 75%;
   padding-left: 1rem;
   border-style: none;
@@ -32,7 +36,7 @@ h2 {
 
 nav {
   border-style: solid;
-  border-color: #b27ca1;
+  border-color: #A6A15E;
   border-radius: 7px;
   padding-left: 1rem;
   padding-bottom: .5rem;
@@ -44,34 +48,34 @@ nav {
 }
 
 p, li {
-  color: #771434;
+  color: #717c89;
   font-family: "Source Serif Pro", serif;
 }
 a:hover {
-  color: #771434;
-  background-color: #f29f05;
+  color: #f1f7f8;
+  background-color: #717c89;
 }
 img {
   border-style: groove;
-  border-color: #771434;
+  border-color: #a6a15e;
   border-width: 3px;
   width: 25%;
 }
 article {
   border-style: solid;
-  border-color: #f29f05;
+  border-color: #4d2d45;
   border-width: 5px;
   width: 50%;
   padding: 1rem;
   border-radius: 7px;
-
 }
+
 aside {
   float: right;
   width: 40%;
   padding: 1rem;
   border-style: dotted;
-  border-color: #771434;
+  border-color: #4d2d45;
   border-width: 3px;
   border-radius: 7px;
 }
@@ -82,5 +86,7 @@ aside {
   width: 100%;
 }
 .fa-camera-retro, .fa-desktop {
-  color: #f2b705
+  color: #4d2d45;
+  font-size: 3rem;
+  padding-right: 1rem;
 }
