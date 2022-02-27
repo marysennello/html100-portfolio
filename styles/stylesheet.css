@@ -62,12 +62,7 @@ img {
   width: 25%;
 }
 article {
-  border-style: solid;
-  border-color: #4d2d45;
-  border-width: 5px;
-  width: 50%;
-  padding: 1rem;
-  border-radius: 7px;
+
 }
 
 aside {
@@ -85,8 +80,23 @@ aside {
 .aside {
   width: 100%;
 }
-.fa-camera-retro, .fa-desktop {
+.fa-camera-retro, .fa-desktop, .fa-copy {
   color: #4d2d45;
   font-size: 3rem;
   padding-right: 1rem;
+}
+.container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.box {
+
+  padding: 1.5rem;
+  height: auto;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: #4d2d45;
+  border-width: 5px;
 }
