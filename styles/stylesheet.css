@@ -33,7 +33,9 @@ h2 {
   border-radius: 7px;
   margin-top: 0rem;
 }
-
+a {
+  padding-left: 2rem; 
+}
 nav {
   border-style: solid;
   border-color: #A6A15E;
